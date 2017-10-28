@@ -1,0 +1,55 @@
+
+@media screen and (min-width: 2000px)
+{
+	header
+	{
+		background-color:lightcoral;
+		
+	}
+	
+	footer
+	{
+		background-color:lightcoral;
+		opacity:0.7;
+	}
+}
+
+
+@media screen and (min-width:600px) and (max-width:1300px)
+{
+	header
+	{
+		background-color:indianred;
+	}
+	
+	footer
+	{
+		background-color:indianred;
+	}
+}
+
+@media screen and (min-width:300px) and (max-width: 600px) and (orientacion: landscape)
+{
+	.content
+	{
+		display:none;
+		width:90%;
+		margin:10px;
+	}
+	
+	body
+	{
+		
+		background-color:seashell;
+	}
+}
+
+
+
+
+
+
+
+
+
+
